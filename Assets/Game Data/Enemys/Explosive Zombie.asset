@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd629ab04654744eaf0510242893f11, type: 3}
+  m_Name: Explosive Zombie
+  m_EditorClassIdentifier: 
+  spawnsAfterWave: 15
+  moveSpeed: 5.3
+  hitsPerSecond: 1.2
+  chanceToDropCrate: 0.3
+  size: 1
+  spawnChance: 5
+  maxHealth: 15
+  damagePerHit: 4
+  cashDroppedWhenKilled: 29
+  sprites:
+  - {fileID: 21300000, guid: 9f43c0f2e8e99ef449d4e881ab418ae7, type: 3}
+  LightEyesLeft: 1
+  LightEyesRight: 1
+  eyeColor: {r: 1, g: 0, b: 0.009791374, a: 0}
+  explodeOnDeath: 1
+  explosionRadius: 5
+  explosionDamage: 34

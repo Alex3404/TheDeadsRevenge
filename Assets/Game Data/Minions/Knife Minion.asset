@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b371ad111913ae84d891103b65c3c4ac, type: 3}
+  m_Name: Knife Minion
+  m_EditorClassIdentifier: 
+  moveSpeed: 4.9
+  hitsPerSecond: 1.5
+  damagePerHit: 18
+  maxHealth: 180
+  cost: 10000
+  givenByDefault: 0
+  aliveSprite: {fileID: 21300000, guid: b850bae475cb7dd4bb6497621417f5f4, type: 3}
+  deadSprite: {fileID: 21300000, guid: 449f1bca5db7da3458e2871b7144e71d, type: 3}
+  CanBeSold: 1
+  upgrades:
+  - name: Health
+    defaultValue: 0
+    maxValue: 700
+    Increment: 50
+    startPrice: 75
+    priceMultiplier: 3
+  - name: MoveSpeed
+    defaultValue: 0
+    maxValue: 3.5
+    Increment: 0.1
+    startPrice: 140
+    priceMultiplier: 2.5
+  - name: Damage
+    defaultValue: 0
+    maxValue: 40
+    Increment: 5
+    startPrice: 45
+    priceMultiplier: 2.7

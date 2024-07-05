@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b371ad111913ae84d891103b65c3c4ac, type: 3}
+  m_Name: Rouge Minion
+  m_EditorClassIdentifier: 
+  moveSpeed: 5.2
+  hitsPerSecond: 3
+  damagePerHit: 27
+  maxHealth: 680
+  cost: 50000
+  givenByDefault: 0
+  aliveSprite: {fileID: 21300000, guid: 4ea3b21624cee9e4aa2be8378ee4de50, type: 3}
+  deadSprite: {fileID: 21300000, guid: 9a157de25e180464ea9ae5d1a338d0c3, type: 3}
+  CanBeSold: 1
+  upgrades:
+  - name: Health
+    defaultValue: 0
+    maxValue: 700
+    Increment: 50
+    startPrice: 75
+    priceMultiplier: 3
+  - name: MoveSpeed
+    defaultValue: 0
+    maxValue: 3.5
+    Increment: 0.1
+    startPrice: 140
+    priceMultiplier: 2.5
+  - name: Damage
+    defaultValue: 0
+    maxValue: 40
+    Increment: 5
+    startPrice: 45
+    priceMultiplier: 2.7

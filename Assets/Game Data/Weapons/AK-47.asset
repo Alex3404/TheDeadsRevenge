@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44acd6400ea260845a382f98d128ca7a, type: 3}
+  m_Name: AK-47
+  m_EditorClassIdentifier: 
+  WeaponCost: 1500
+  FireRate: 4
+  Damage: 11
+  ClipSize: 40
+  ValueMaxAmmo: 350
+  isAutomatic: 1
+  isSecondary: 0
+  bulletSpeed: 60
+  lastFired: 0
+  equipable: 1
+  givenByDefault: 0
+  canReload: 1
+  weaponPrefab: {fileID: 5116546414688579648, guid: 48562d74d144ee04596b06d213f56ff3,
+    type: 3}
+  fireSound: {fileID: 8300000, guid: 515f00f56a759064d9f8f091fae7fed0, type: 3}
+  reloadSound: {fileID: 8300000, guid: acc86232fcef5ff48995836a78f8b278, type: 3}
+  wepIndex: 0
+  CanBeSold: 1
+  upgrades:
+  - name: Damage
+    defaultValue: 0
+    maxValue: 20
+    Increment: 2
+    startPrice: 250
+    priceMultiplier: 2
+  - name: MaxAmmo
+    defaultValue: 0
+    maxValue: 150
+    Increment: 10
+    startPrice: 35
+    priceMultiplier: 1.4
+  - name: FireRate
+    defaultValue: 0
+    maxValue: 2
+    Increment: 0.1
+    startPrice: 50
+    priceMultiplier: 3
+  - name: ClipSize
+    defaultValue: 0
+    maxValue: 25
+    Increment: 1
+    startPrice: 55
+    priceMultiplier: 2.3

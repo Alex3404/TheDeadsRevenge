@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44acd6400ea260845a382f98d128ca7a, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  WeaponCost: 100
+  FireRate: 1.6
+  Damage: 19
+  ClipSize: 0
+  ValueMaxAmmo: 0
+  isAutomatic: 0
+  isSecondary: 0
+  bulletSpeed: 60
+  lastFired: 0
+  equipable: 0
+  givenByDefault: 1
+  canReload: 0
+  weaponPrefab: {fileID: 8541331853716123571, guid: 805634f68dd9c3745a9256cf2d7cf6ed,
+    type: 3}
+  fireSound: {fileID: 8300000, guid: 57465464f2141db41a0d7f3de940743b, type: 3}
+  reloadSound: {fileID: 0}
+  wepIndex: 3
+  upgrades:
+  - name: Damage
+    defaultValue: 0
+    maxValue: 0
+    Increment: 2
+    startPrice: 350
+    priceMultiplier: 2.2

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd629ab04654744eaf0510242893f11, type: 3}
+  m_Name: Decaying Zombie
+  m_EditorClassIdentifier: 
+  spawnsAfterWave: 10
+  moveSpeed: 6.7
+  hitsPerSecond: 1.5
+  chanceToDropCrate: 0.25
+  size: 1
+  spawnChance: 30
+  maxHealth: 23
+  damagePerHit: 12
+  cashDroppedWhenKilled: 37
+  sprites:
+  - {fileID: 21300000, guid: bb12569d05ce3284289d925dafa26fbf, type: 3}
+  LightEyesLeft: 1
+  LightEyesRight: 0
+  eyeColor: {r: 0, g: 1, b: 0.17519307, a: 0}
+  explodeOnDeath: 0
+  explosionRadius: 0
+  explosionDamage: 0

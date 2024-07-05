@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 66fbda1b36863754d8589a1c8d1deabe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CombatTextPrefab: {fileID: 1641388319489723838, guid: a8300e1d161e08644933df490825aae4,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
